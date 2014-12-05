@@ -1,0 +1,24 @@
+{
+    "name": "sukohi/paver",
+    "description": "A PHP package mainly developed for Laravel to generate PHP codes using column names of specified table.",
+    "authors": [
+        {
+            "name": "Sukohi",
+            "email": "capilano.sukohi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Sukohi\\Paver\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
